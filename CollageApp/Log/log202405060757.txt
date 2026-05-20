@@ -1,0 +1,16 @@
+2024-05-06 07:57:12.448 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-06 07:57:12.494 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-06 07:57:12.509 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 07:57:12.513 +05:30 [INF] Hosting environment: Development
+2024-05-06 07:57:12.515 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-05-06 07:57:15.199 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-06 07:57:15.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 675.2552ms
+2024-05-06 07:57:15.979 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-06 07:57:15.979 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 07:57:16.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 148.9284ms
+2024-05-06 07:57:16.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 280.3698ms
+2024-05-06 07:57:16.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-06 07:57:16.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.7079ms
+2024-05-06 07:57:49.961 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 95
+2024-05-06 07:57:49.981 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-06 07:57:50.057 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).

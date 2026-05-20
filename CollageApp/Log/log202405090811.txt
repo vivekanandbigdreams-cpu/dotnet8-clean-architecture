@@ -1,0 +1,7 @@
+2024-05-09 08:11:27.512 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 147
+2024-05-09 08:11:27.540 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-09 08:11:27.587 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-09 08:11:34.640 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2024-05-09 08:11:34.675 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 7079.1797ms
+2024-05-09 08:11:34.678 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-09 08:11:34.678 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 147 - 400 - application/json;+charset=utf-8 7165.5248ms

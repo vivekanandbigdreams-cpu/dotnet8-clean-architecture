@@ -1,0 +1,16 @@
+2024-05-09 08:10:12.888 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 139
+2024-05-09 08:10:12.922 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-09 08:10:12.923 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-09 08:10:49.321 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-09 08:10:49.378 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-09 08:10:49.393 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 08:10:49.397 +05:30 [INF] Hosting environment: Development
+2024-05-09 08:10:49.399 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-05-09 08:10:49.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-09 08:10:50.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 480.2581ms
+2024-05-09 08:10:50.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-09 08:10:50.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-09 08:10:50.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 3.9769ms
+2024-05-09 08:10:50.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.8234ms
+2024-05-09 08:10:50.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-09 08:10:50.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.8001ms

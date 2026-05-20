@@ -1,0 +1,20 @@
+2024-05-07 07:54:23.543 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-07 07:54:23.608 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-07 07:54:23.636 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 07:54:23.642 +05:30 [INF] Hosting environment: Development
+2024-05-07 07:54:23.645 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-05-07 07:54:25.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-07 07:54:28.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-07 07:54:28.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 07:54:28.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 12.2931ms
+2024-05-07 07:54:28.184 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 2415.4623ms
+2024-05-07 07:54:28.461 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 302.6297ms
+2024-05-07 07:54:28.532 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-07 07:54:29.573 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1040.1857ms
+2024-05-07 07:54:55.929 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 93
+2024-05-07 07:54:55.959 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 07:54:56.054 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 07:54:56.244 +05:30 [INF] Executing CreatedAtRouteResult, writing value of type 'CollageApp.Models.StudentDTO'.
+2024-05-07 07:54:56.353 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 274.6666ms
+2024-05-07 07:54:56.361 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 07:54:56.362 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 93 - 201 - application/json;+charset=utf-8 433.1245ms

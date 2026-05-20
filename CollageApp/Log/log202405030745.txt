@@ -1,0 +1,21 @@
+2024-05-03 07:45:25.370 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-03 07:45:25.404 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-03 07:45:25.411 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-03 07:45:25.413 +05:30 [INF] Hosting environment: Development
+2024-05-03 07:45:25.413 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-05-03 07:45:26.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-03 07:45:26.579 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 505.2289ms
+2024-05-03 07:45:26.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-03 07:45:26.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-03 07:45:26.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 8.1300ms
+2024-05-03 07:45:26.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3299ms
+2024-05-03 07:45:26.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-03 07:45:27.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.5946ms
+2024-05-03 07:45:45.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Student/All - -
+2024-05-03 07:45:45.972 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.GetStudentName (CollageApp)'
+2024-05-03 07:45:46.023 +05:30 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CollageApp.Models.StudentDTO]] GetStudentName() on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-03 07:45:46.027 +05:30 [INF] Your message
+2024-05-03 07:45:46.041 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[CollageApp.Models.Student, CollageApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CollageApp.Models.StudentDTO, CollageApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-03 07:45:46.079 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.GetStudentName (CollageApp) in 46.2092ms
+2024-05-03 07:45:46.081 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.GetStudentName (CollageApp)'
+2024-05-03 07:45:46.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Student/All - - - 200 - application/json;+charset=utf-8 123.3540ms

@@ -1,0 +1,20 @@
+2024-03-31 12:11:23.729 +05:30 [INF] Now listening on: https://localhost:7121
+2024-03-31 12:11:23.782 +05:30 [INF] Now listening on: http://localhost:5088
+2024-03-31 12:11:23.791 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-31 12:11:23.792 +05:30 [INF] Hosting environment: Development
+2024-03-31 12:11:23.792 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-03-31 12:11:26.523 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-03-31 12:11:27.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 548.9126ms
+2024-03-31 12:11:27.121 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-03-31 12:11:27.121 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-03-31 12:11:27.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 11.1179ms
+2024-03-31 12:11:27.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.5502ms
+2024-03-31 12:11:27.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-03-31 12:11:27.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.9907ms
+2024-03-31 12:11:33.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Demo - -
+2024-03-31 12:11:33.236 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.DemoController.Index (CollageApp)'
+2024-03-31 12:11:33.275 +05:30 [INF] Route matched with {action = "Index", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller CollageApp.Controllers.DemoController (CollageApp).
+2024-03-31 12:11:33.302 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-03-31 12:11:33.333 +05:30 [INF] Executed action CollageApp.Controllers.DemoController.Index (CollageApp) in 47.884ms
+2024-03-31 12:11:33.338 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.DemoController.Index (CollageApp)'
+2024-03-31 12:11:33.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Demo - - - 200 - application/json;+charset=utf-8 141.5434ms

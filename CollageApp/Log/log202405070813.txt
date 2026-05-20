@@ -1,0 +1,7 @@
+2024-05-07 08:13:07.670 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88
+2024-05-07 08:13:07.693 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:13:07.696 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 08:13:07.699 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-07 08:13:07.701 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 4.572ms
+2024-05-07 08:13:07.701 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:13:07.701 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88 - 400 - application/problem+json;+charset=utf-8 31.4384ms

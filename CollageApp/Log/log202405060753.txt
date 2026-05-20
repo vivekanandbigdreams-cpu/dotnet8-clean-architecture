@@ -1,0 +1,5 @@
+2024-05-06 07:53:58.141 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-06 07:53:58.190 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-06 07:53:58.205 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 07:53:58.209 +05:30 [INF] Hosting environment: Development
+2024-05-06 07:53:58.212 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\

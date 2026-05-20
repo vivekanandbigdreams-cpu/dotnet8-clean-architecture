@@ -1,0 +1,4 @@
+2024-05-06 07:58:16.015 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollageApp.Models.StudentDTO'.
+2024-05-06 07:58:16.070 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 25982.2862ms
+2024-05-06 07:58:16.076 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-06 07:58:16.076 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 95 - 200 - application/json;+charset=utf-8 26115.1020ms

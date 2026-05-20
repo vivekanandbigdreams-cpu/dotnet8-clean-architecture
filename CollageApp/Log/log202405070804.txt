@@ -1,0 +1,14 @@
+2024-05-07 08:04:09.178 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88
+2024-05-07 08:04:09.210 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:04:09.210 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 08:04:09.215 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-07 08:04:09.237 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 27.1423ms
+2024-05-07 08:04:09.237 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:04:09.239 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88 - 400 - application/problem+json;+charset=utf-8 60.5246ms
+2024-05-07 08:04:23.776 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 75
+2024-05-07 08:04:23.789 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:04:23.791 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 08:04:23.797 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-07 08:04:23.797 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 6.4023ms
+2024-05-07 08:04:23.797 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:04:23.797 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 75 - 400 - application/problem+json;+charset=utf-8 21.6056ms

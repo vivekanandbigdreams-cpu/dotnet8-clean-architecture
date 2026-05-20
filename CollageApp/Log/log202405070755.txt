@@ -1,0 +1,7 @@
+2024-05-07 07:55:16.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Student/4 - -
+2024-05-07 07:55:16.814 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.GetStudentById (CollageApp)'
+2024-05-07 07:55:16.822 +05:30 [INF] Route matched with {action = "GetStudentById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] GetStudentById(Int32) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 07:55:16.838 +05:30 [INF] Executing OkObjectResult, writing value of type 'CollageApp.Models.StudentDTO'.
+2024-05-07 07:55:16.861 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.GetStudentById (CollageApp) in 38.0551ms
+2024-05-07 07:55:16.861 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.GetStudentById (CollageApp)'
+2024-05-07 07:55:16.861 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Student/4 - - - 200 - application/json;+charset=utf-8 80.4534ms

@@ -1,0 +1,13 @@
+2024-05-07 08:08:40.983 +05:30 [INF] Now listening on: https://localhost:7121
+2024-05-07 08:08:41.033 +05:30 [INF] Now listening on: http://localhost:5088
+2024-05-07 08:08:41.051 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 08:08:41.054 +05:30 [INF] Hosting environment: Development
+2024-05-07 08:08:41.057 +05:30 [INF] Content root path: C:\Vivek_Partice_Home\.net\CollageApp\
+2024-05-07 08:08:44.132 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-07 08:08:44.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 629.4033ms
+2024-05-07 08:08:44.768 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:08:44.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-07 08:08:44.776 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 7.7479ms
+2024-05-07 08:08:44.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.7962ms
+2024-05-07 08:08:44.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-07 08:08:45.177 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 240.5631ms

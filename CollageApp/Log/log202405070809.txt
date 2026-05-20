@@ -1,0 +1,22 @@
+2024-05-07 08:09:16.363 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88
+2024-05-07 08:09:16.394 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:09:16.488 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 08:09:16.652 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-07 08:09:16.745 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 209.7729ms
+2024-05-07 08:09:16.750 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:09:16.751 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88 - 400 - application/problem+json;+charset=utf-8 387.6041ms
+2024-05-07 08:09:46.543 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88
+2024-05-07 08:09:46.548 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:09:46.549 +05:30 [INF] Route matched with {action = "CreateStudent", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CollageApp.Models.StudentDTO] CreateStudent(CollageApp.Models.StudentDTO) on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-07 08:09:46.550 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-07 08:09:46.550 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.CreateStudent (CollageApp) in 1.6056ms
+2024-05-07 08:09:46.551 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.CreateStudent (CollageApp)'
+2024-05-07 08:09:46.551 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Student/Create application/json 88 - 400 - application/problem+json;+charset=utf-8 7.2511ms
+2024-05-07 08:09:56.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - -
+2024-05-07 08:09:56.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - - - 200 - text/html;charset=utf-8 15.9798ms
+2024-05-07 08:09:56.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - -
+2024-05-07 08:09:56.188 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:09:56.188 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 0.5102ms
+2024-05-07 08:09:56.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8804ms
+2024-05-07 08:09:56.436 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - -
+2024-05-07 08:09:56.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.3912ms

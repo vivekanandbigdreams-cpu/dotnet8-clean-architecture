@@ -1,0 +1,8 @@
+2024-05-06 07:55:03.804 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Student/All - -
+2024-05-06 07:55:03.916 +05:30 [INF] Executing endpoint 'CollageApp.Controllers.StudentController.GetStudents (CollageApp)'
+2024-05-06 07:55:03.919 +05:30 [INF] Route matched with {action = "GetStudents", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CollageApp.Models.StudentDTO]] GetStudents() on controller CollageApp.Controllers.StudentController (CollageApp).
+2024-05-06 07:55:03.925 +05:30 [INF] Your message
+2024-05-06 07:55:03.928 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[CollageApp.Models.Student, CollageApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CollageApp.Models.StudentDTO, CollageApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 07:55:03.962 +05:30 [INF] Executed action CollageApp.Controllers.StudentController.GetStudents (CollageApp) in 42.813ms
+2024-05-06 07:55:03.963 +05:30 [INF] Executed endpoint 'CollageApp.Controllers.StudentController.GetStudents (CollageApp)'
+2024-05-06 07:55:03.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Student/All - - - 200 - application/json;+charset=utf-8 158.5317ms
